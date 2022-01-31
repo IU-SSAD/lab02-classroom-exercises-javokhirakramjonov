@@ -44,5 +44,5 @@ string ex2(){
     buffer << printdata(&heroes[i]);
   }
 
-   return "";
+   return buffer.str();
 }
