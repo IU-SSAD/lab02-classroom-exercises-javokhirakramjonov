@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Ex00_a",
+      "setup": "  g++ -fsanitize=address --std=c++17 tests.cpp -o appTests",
+      "run": "./appTests Ex00_a",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Ex00_b",
+      "setup": "  g++ -fsanitize=address --std=c++17 tests.cpp -o appTests",
+      "run": "./appTests Ex00_b",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Ex01",
+      "setup": "  g++ -fsanitize=address --std=c++17 tests.cpp -o appTests",
+      "run": "./appTests Ex01",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 40
+    },
+    {
+      "name": "Ex02",
+      "setup": "  g++ -fsanitize=address --std=c++17 tests.cpp -o appTests",
+      "run": "./appTests Ex02 && make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 40
+    }
+  ]
+}
