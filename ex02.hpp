@@ -40,10 +40,10 @@ string ex2(){
 
    // Use a For Loop to call our printdata(mydata*) function
    // over all our heroes[]  
-   for (mydate p : heroes) // TODO: fix as descripted in the comment right above
+   for (struct mydate p : heroes) // TODO: fix as descripted in the comment right above
    {
       buffer << printdata(p);
    }
 
-   return buffer.str();
+   return "";
 }
