@@ -27,7 +27,7 @@ string printdata(mydata* p)
    string name = p->name_;// TODO: assign the const name_ in p to the variable name;
    
    buffer << "Hello. I am " << name << ". ";
-   if (name == "hero")// TODO: if p is a hero
+   if (p->hero_ == true)// TODO: if p is a hero
       buffer << "I am a hero." << endl;
    else
       buffer << "I am a villain." << endl;
