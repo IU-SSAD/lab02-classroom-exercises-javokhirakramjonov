@@ -40,7 +40,8 @@ string ex2(){
 
    // Use a For Loop to call our printdata(mydata*) function
    // over all our heroes[]  
-   for (struct mydate p : heroes) // TODO: fix as descripted in the comment right above
+   struct mydate* p = heroes;
+   for (;p != nullptr;p++) // TODO: fix as descripted in the comment right above
    {
       buffer << printdata(p);
    }
