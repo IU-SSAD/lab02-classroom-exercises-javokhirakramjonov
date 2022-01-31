@@ -40,7 +40,7 @@ string ex2(){
 
    // Use a For Loop to call our printdata(mydata*) function
    // over all our heroes[]  
-  for(int i = 0; i < 5; ++ i){
+  for(int i = 0; i < 6; ++ i){
     buffer << printdata(&heroes[i]);
   }
 
