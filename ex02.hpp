@@ -24,10 +24,10 @@ mydata heroes[]
 string printdata(mydata* p)
 {
    stringstream buffer;
-   string name = p.name_;// TODO: assign the const name_ in p to the variable name;
+   string name = p->name_;// TODO: assign the const name_ in p to the variable name;
    
    buffer << "Hello. I am " << name << ". ";
-   if (p.name_ == "hero")// TODO: if p is a hero
+   if (name == "hero")// TODO: if p is a hero
       buffer << "I am a hero." << endl;
    else
       buffer << "I am a villain." << endl;
