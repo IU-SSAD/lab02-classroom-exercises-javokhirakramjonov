@@ -37,12 +37,13 @@ string ex2(){
    stringstream buffer;
    buffer << sizeof(mydata) << " " << sizeof(mydata*) << endl;
 
-   // Use a For Loop to call our printdata(mydata*) function
-   // over all our heroes[]  
-   for (; ;) // TODO: fix as descripted in the comment right above
-   {
-      buffer << printdata(p);
-   }
+  //  // Use a For Loop to call our printdata(mydata*) function
+  //  // over all our heroes[]  
+  //  for (; ;) // TODO: fix as descripted in the comment right above
+  //  {
+  //     buffer << printdata(p);
+  //  }
 
-   return buffer.str();
+  //  return buffer.str();
+  return "";
 }
